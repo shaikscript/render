@@ -1,4 +1,4 @@
-<?php function page_head($title,$nav=[],$user=null){$b=cfg()['base_url'];?>
+<?php function page_head($title,$nav=[],$user=null){$b=cfg()["base_url"];$nav=nav_for($_SESSION["u"]["type"]??"")?:$nav;?>
 <!doctype html><html lang="en" data-bs-theme="light"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title><?=e($title)?> · AI SQUARE HUB</title><link rel="icon" href="<?=$b?>/assets/img/logo.svg">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
