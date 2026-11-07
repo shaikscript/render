@@ -1,0 +1,4 @@
+:root{--brand:#2563EB;--navy:#0F172A}body{font-family:Inter,sans-serif}
+.sidebar{width:240px;min-height:100vh;background:var(--navy);flex-shrink:0;color:#fff}.sidebar a{display:block;color:#cbd5e1;padding:8px 10px;border-radius:8px;text-decoration:none}.sidebar a:hover{background:#1e293b;color:#fff}
+.card{border-radius:14px;box-shadow:0 1px 4px rgba(0,0,0,.06)}.kpi{font-size:1.8rem;font-weight:700}.btn-primary{background:var(--brand);border-color:var(--brand)}
+@media(max-width:768px){.sidebar{width:60px}.sidebar b,.sidebar hr{display:none}}
